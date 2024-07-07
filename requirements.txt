@@ -2,4 +2,7 @@ opencv-python==4.10.0.84
 numpy==1.26.4
 matplotlib==3.9.0
 onnxruntime==1.18.0
-dlib==19.24.4
+cmake==3.30.0
+scikit-learn==1.5.1
+gast==0.5.5
+tensorflow==2.16.2

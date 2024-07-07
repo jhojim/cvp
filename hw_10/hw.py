@@ -22,7 +22,7 @@ fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 out = cv2.VideoWriter('Output.mp4', fourcc, 20.0, (frame_width, frame_height))
 
 # Create a tracker for each bounding box
-trackers = [cv2.legacy.TrackerCSRT_create() for _ in bboxes]
+trackers = [cv2.legacy.TrackerKCF_create() for _ in bboxes]
 
 # Initialize each tracker with the first frame and its corresponding bounding box
 oks = [tracker.init(frame, bbox) for tracker, bbox in zip(trackers, bboxes)]
