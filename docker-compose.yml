@@ -1,20 +1,13 @@
-version: '2.4'
+version: '3.1'
 
 services:
-  powerapp:
-    restart: always
+  cvp:
     environment:
       PYTHONPATH: $PYTHONPATH:/usr/src/cvp
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: cvp
     volumes:
       - ./:/usr/src
-    expose:
-      - "5000"
-    networks:
-      - main
-
-networks:
-  main:
+    ports:
+      - 8888:8888

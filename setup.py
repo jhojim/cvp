@@ -7,7 +7,7 @@ setup(
     long_description="",
     classifiers=[],
     keywords="",
-    author="Vlad Zhdanov",
+    author="Jho Jim",
     author_email="jhojim@gmail.com",
     url="",
     license='Copyright Jho JIm',
