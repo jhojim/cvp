@@ -33,4 +33,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8888
 
 # Run Jupyter notebook when the container launches
-CMD ["jupyter", "notebook", "--ip='*'", "--port=8888", "--no-browser", "--NotebookApp.token=''", "--NotebookApp.password='123456789'", "--allow-root"]
+CMD ["jupyter", "notebook", "--ip='*'", "--port=8888", "--no-browser", "--NotebookApp.token='123456789'", "--NotebookApp.password='123456789'", "--allow-root"]
