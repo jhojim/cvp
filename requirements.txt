@@ -4,3 +4,8 @@ onnxruntime==1.18.0
 scikit-learn==1.5.1
 tensorflow==2.16.2
 pandas==2.2.2
+librosa==0.10.2
+soundfile==0.12.1
+moviepy==1.0.3
+face-recognition==1.3.0
+mtcnn==0.1.1
